@@ -35,3 +35,8 @@
     </dependency>
 ```
 3. 整合springbean环境，基于注解配置
+
+- 创建spring配置文件
+- 在需要注入容器中的类上加上相应注解
+- 创建spring核心容器applicationContext
+- 从容器中获取想要的类
