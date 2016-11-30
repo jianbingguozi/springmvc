@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 輸出到控制台 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern><!-- 日誌格式 -->
+        </layout>
+    </appender>
+    <!-- 輸出到文件 -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>MyLog.log</file><!-- 指定日誌文件路徑，本地環境下，根目錄為IDE安裝目錄 -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern><!-- 日誌格式 -->
+        </layout>
+    </appender>
+    <logger name="www.asuan" level="TRACE" /><!-- 包路徑根據你的開發環境而定 -->
+    <!-- 单个logger可绑定多个appender,一个appender可被多个logger所引用 -->
+    <root level="debug">
+        <!-- 引用之前定義的appender -->
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>

@@ -1,5 +1,7 @@
 package com.jianbingguozi.web;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,14 +12,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class LoginController {
+    private static final Logger log = LoggerFactory.getLogger(LoginController.class);
+    //private static final Logger log = (Logger) LogFactory.getLog(LoginController.class);
+
+
     @RequestMapping("/login")
     public String login(Model model){
-        System.out.println("======================");
+        //log.debug("======================");
         return "login";
     }
 
     @RequestMapping("/test")
     public void test(){
-        System.out.println("--------=-=-=-=-=-=--=----------------");
+        //log.debug("--------=-=-=-=-=-=--=----------------");
     }
 }
