@@ -13,17 +13,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class LoginController {
     private static final Logger log = LoggerFactory.getLogger(LoginController.class);
-    //private static final Logger log = (Logger) LogFactory.getLog(LoginController.class);
 
 
     @RequestMapping("/login")
     public String login(Model model){
-        //log.debug("======================");
+        log.debug("======================");
         return "login";
     }
 
     @RequestMapping("/test")
     public void test(){
-        //log.debug("--------=-=-=-=-=-=--=----------------");
+        log.debug("--------=-=-=-=-=-=--=----------------");
     }
 }
