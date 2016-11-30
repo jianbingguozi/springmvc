@@ -41,6 +41,7 @@
 - 在需要注入容器中的类上加上相应注解
 - 创建spring核心容器applicationContext
 - 从容器中获取想要的类
+
 ### 搭建springmvc（mvc）
 1. 创建springmvc 的配置文件
 ```youtrack
@@ -96,5 +97,51 @@ public class LoginController {
     }
 }
 ```
+### 搭建mybatis环境
+1. 添加mybatis相关jir包
+2. 创建mybatis配置文件
+```myabatis
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://10.88.7.19:3306/mybatis01"/>
+                <property name="username" value="root"/>
+                <property name="password" value="pass10"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <package name="com.jianbingguozi.dao"/>
+    </mappers>
+</configuration>
+```
+3. 创建mapper数据库操作类
+```java
+public interface UserDao {
+    @Select("select * from users where id = #{id}")
+    public abstract User selectById(Integer id);
+}
+```
+4. 构建sqlsession
+```java
+@Test
+public void testSelect(){
+    InputStream resourceAsStream = BaseDaoTest.class.getClassLoader().getResourceAsStream("config/mybatis-config.xml");
+    SqlSessionFactory build = new SqlSessionFactoryBuilder().build(resourceAsStream);
+    SqlSession sqlSession = build.openSession();
+    UserDao userDao = sqlSession.getMapper(UserDao.class);
+    User user = userDao.selectById(3);
+    System.out.println(user);
+}
+```
+
+
 
 [参考文档](http://www.cnblogs.com/sunniest/p/4555801.html)
