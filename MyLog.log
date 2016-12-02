@@ -164,3 +164,13 @@
 14:54:19.588 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
 14:54:19.626 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
 14:54:19.633 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b4bc93]
+15:16:43.337 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+15:16:44.152 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+15:16:44.248 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+15:16:44.391 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+15:16:44.401 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d14693f] was not registered for synchronization because synchronization is not active
+15:16:44.898 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@40faaafb] will not be managed by Spring
+15:16:44.912 [main] DEBUG c.j.dao.UserDao.selectById - ==>  Preparing: select * from users where id = ? 
+15:16:44.991 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
+15:16:45.041 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
+15:16:45.047 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d14693f]
