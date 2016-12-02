@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class LoginController {
     private static final Logger log = LoggerFactory.getLogger(LoginController.class);
 
-
     @RequestMapping("/login")
     public String login(Model model){
         log.debug("======================");

@@ -1,0 +1,166 @@
+13:55:41.508 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+13:55:41.526 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+13:55:41.579 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+13:55:41.709 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+13:55:41.715 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@592069f2] was not registered for synchronization because synchronization is not active
+13:56:39.134 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+13:56:39.153 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+13:56:39.216 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+13:56:39.445 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+13:56:39.452 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22a5032] was not registered for synchronization because synchronization is not active
+13:58:43.717 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+13:58:43.736 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+13:58:43.813 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+13:59:06.279 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+13:59:06.301 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+13:59:06.367 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+13:59:06.555 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+13:59:06.562 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@592069f2] was not registered for synchronization because synchronization is not active
+14:01:19.435 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:01:19.456 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:01:19.525 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:01:19.699 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:01:19.711 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb6847f] was not registered for synchronization because synchronization is not active
+14:04:18.092 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@592069f2]
+14:04:37.568 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb6847f]
+14:05:36.777 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:05:36.801 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:05:36.874 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:05:37.038 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:05:37.046 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@392e8f9] was not registered for synchronization because synchronization is not active
+14:06:41.176 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:06:41.199 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:06:41.281 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:06:41.467 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:06:41.477 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b414ca] was not registered for synchronization because synchronization is not active
+14:09:24.316 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:09:24.347 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:09:24.441 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:09:24.683 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:09:24.693 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b414ca] was not registered for synchronization because synchronization is not active
+14:09:25.212 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7758002b] will not be managed by Spring
+14:09:25.223 [main] DEBUG c.j.dao.UserDao.selectById - ==>  Preparing: select * from users where id = ? 
+14:09:25.294 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
+14:09:25.357 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
+14:09:25.364 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b414ca]
+14:09:49.429 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:09:49.455 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:09:49.523 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:09:49.743 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:09:49.759 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4a15bcd5] was not registered for synchronization because synchronization is not active
+14:14:24.620 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:14:24.650 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:14:24.713 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:14:24.892 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:14:24.902 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8262c5c] was not registered for synchronization because synchronization is not active
+14:15:01.047 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:15:01.075 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:15:01.140 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:15:01.293 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:15:01.300 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@603043f6] was not registered for synchronization because synchronization is not active
+14:15:59.931 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:15:59.951 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:16:00.040 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:16:00.259 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:16:00.265 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22a5032] was not registered for synchronization because synchronization is not active
+14:16:42.712 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:16:42.734 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:16:42.802 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:16:42.969 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:16:42.978 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@592069f2] was not registered for synchronization because synchronization is not active
+14:17:05.140 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:17:05.161 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:17:05.227 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:17:05.403 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:17:05.410 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b414ca] was not registered for synchronization because synchronization is not active
+14:17:05.835 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@7758002b] will not be managed by Spring
+14:17:05.852 [main] DEBUG c.j.dao.UserDao.selectById - ==>  Preparing: select * from users where id = ? 
+14:17:05.920 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
+14:17:05.958 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
+14:17:05.964 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76b414ca]
+14:17:16.479 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:17:16.506 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:17:16.580 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:17:16.807 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:17:16.818 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@8262c5c] was not registered for synchronization because synchronization is not active
+14:25:47.916 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:25:47.939 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:25:48.040 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:25:48.311 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:25:48.320 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27f703ba] was not registered for synchronization because synchronization is not active
+14:28:01.280 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:28:01.301 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:28:01.354 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:28:01.487 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:28:01.495 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22a5032] was not registered for synchronization because synchronization is not active
+14:30:03.210 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:30:03.230 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:30:03.298 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:30:03.471 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:30:03.477 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27f703ba] was not registered for synchronization because synchronization is not active
+14:31:24.667 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:31:24.689 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:31:24.751 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:31:24.922 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:31:24.930 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f9db2da] was not registered for synchronization because synchronization is not active
+14:31:25.427 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@182907c1] will not be managed by Spring
+14:31:25.447 [main] DEBUG c.j.dao.UserDao.selectById - ==>  Preparing: select * from users where id = ? 
+14:31:25.536 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
+14:31:25.579 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
+14:31:25.589 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4f9db2da]
+14:32:34.065 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:32:34.086 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:32:34.152 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:32:34.337 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:32:34.344 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12fe9a4a] was not registered for synchronization because synchronization is not active
+14:37:39.986 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:37:40.012 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:37:40.109 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:39:02.516 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:39:02.539 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:39:02.620 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:52:47.695 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:52:47.714 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:52:47.775 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:52:47.943 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:52:47.953 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2ad8eece] was not registered for synchronization because synchronization is not active
+14:53:31.545 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:53:31.568 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:53:31.641 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:53:31.832 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:53:31.840 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@451e01b1] was not registered for synchronization because synchronization is not active
+14:53:32.304 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@631e1d43] will not be managed by Spring
+14:53:32.318 [main] DEBUG c.j.dao.UserDao.selectById - ==>  Preparing: select * from users where id = ? 
+14:53:32.383 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
+14:53:32.422 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
+14:53:32.430 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@451e01b1]
+14:53:47.061 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:53:47.081 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:53:47.148 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:53:47.331 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:53:47.342 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17c8607d] was not registered for synchronization because synchronization is not active
+14:53:47.806 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@acc4ce9] will not be managed by Spring
+14:53:47.821 [main] DEBUG c.j.dao.UserDao.selectById - ==>  Preparing: select * from users where id = ? 
+14:53:47.889 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
+14:53:47.925 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
+14:53:47.931 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17c8607d]
+14:54:02.678 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:54:02.703 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:54:02.788 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:54:02.974 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:54:02.984 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60af1fd5] was not registered for synchronization because synchronization is not active
+14:54:03.421 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@4e134c8b] will not be managed by Spring
+14:54:03.432 [main] DEBUG c.j.dao.UserDao.selectById - ==>  Preparing: select * from users where id = ? 
+14:54:03.496 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
+14:54:03.549 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
+14:54:03.561 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60af1fd5]
+14:54:18.821 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+14:54:18.844 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property `configuration` or 'configLocation' not specified, using default MyBatis Configuration
+14:54:18.909 [main] DEBUG o.m.spring.SqlSessionFactoryBean - Property 'mapperLocations' was not specified or no matching resources found
+14:54:19.081 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+14:54:19.086 [main] DEBUG org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b4bc93] was not registered for synchronization because synchronization is not active
+14:54:19.507 [main] DEBUG o.m.s.t.SpringManagedTransaction - JDBC Connection [com.mchange.v2.c3p0.impl.NewProxyConnection@571747bd] will not be managed by Spring
+14:54:19.518 [main] DEBUG c.j.dao.UserDao.selectById - ==>  Preparing: select * from users where id = ? 
+14:54:19.588 [main] DEBUG c.j.dao.UserDao.selectById - ==> Parameters: 3(Integer)
+14:54:19.626 [main] DEBUG c.j.dao.UserDao.selectById - <==      Total: 1
+14:54:19.633 [main] DEBUG org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12b4bc93]

@@ -142,6 +142,50 @@ public void testSelect(){
 }
 ```
 
+### spring+mybatis整合
+1. 增加spring-mabtis整个包
+```maven
+<dependency>
+  <groupId>org.mybatis</groupId>
+  <artifactId>mybatis-spring</artifactId>
+  <version>1.3.0</version>
+</dependency>
+```
+2. 使用org.mybatis.spring.SqlSessionFactoryBean 整合
+```spring
+<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+    <property name="user" value="${username}"/>
+    <property name="password" value="${password}"/>
+    <property name="driverClass" value="${driver}"/>
+    <property name="jdbcUrl" value="${url}"/>
+</bean>
+<!-- 需要配置数据源 -->
+<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <property name="dataSource" ref="dataSource" />
+</bean>
+```
+3. 色泽mybatis部分属性，较少敢于mybatis 的原始xml配置文件
+```spring
+<!--设置mapper扫描路径-->
+<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="com.jianbingguozi.dao"/>
+</bean>
+```
+4. 报错需要引入spring关于数据相关的jir包
+```maven
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-tx</artifactId>
+  <version>4.3.4.RELEASE</version>
+</dependency>
+<dependency>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-jdbc</artifactId>
+  <version>4.3.4.RELEASE</version>
+</dependency>
+```
+
+
 
 
 [参考文档](http://www.cnblogs.com/sunniest/p/4555801.html)

@@ -21,12 +21,15 @@
             </list>
         </property>
     </bean>-->
+    <bean id="userTest" class="com.jianbingguozi.test.bean.ResourceIocTest">
+        <property name="name" value="${username}" />
+    </bean>
 
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <property name="user" value="${username}"/>
-        <property name="password" value="${password}"/>
-        <property name="driverClass" value="${driver}"/>
-        <property name="jdbcUrl" value="${url}"/>
+        <property name="password" value="pass10"/>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://10.88.7.19:3306/mybatis01"/>
     </bean>
 
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
