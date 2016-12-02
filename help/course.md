@@ -1,3 +1,8 @@
+nav
+[mybatis记录](mybatis/mybatis-recore.md)
+
+[TOC]
+
 ## springmvc 的搭建过程
 ### 搭建spring
 1. 使用maven模板搭建工程框架
