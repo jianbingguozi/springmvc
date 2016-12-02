@@ -9,4 +9,5 @@ import com.jianbingguozi.bean.User;
 public interface UserService {
     public abstract void speak();
     public abstract User findById(Integer id);
+    public abstract void registUser(User user);
 }
