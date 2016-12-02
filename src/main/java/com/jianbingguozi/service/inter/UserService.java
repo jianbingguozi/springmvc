@@ -10,4 +10,6 @@ public interface UserService {
     public abstract void speak();
     public abstract User findById(Integer id);
     public abstract void registUser(User user);
+    public abstract void registUserTran(User user);
+
 }

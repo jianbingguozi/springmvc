@@ -190,6 +190,28 @@ public void testSelect(){
 </dependency>
 ```
 
+### 事务配置
+[spring事务配置](http://blog.csdn.net/hjm4702192/article/details/17277669)
+1. 配置spring事务相关
+```spring
+<!-- 配置事务管理器 -->
+<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+    <property name="dataSource" ref="dataSource"/>
+</bean>
+
+<!-- 开启事务注解 -->
+<tx:annotation-driven transaction-manager="transactionManager"/>
+```
+2. 在service需要事务的方法上配置事务
+```java
+@Transactional(readOnly = false, rollbackFor = {Exception.class,RuntimeException.class})
+public void registUserTran(User user){
+    userDao.insertUser(user);
+    int  i = 1 / 0;
+}
+```
+
+
 ### 业务包结构创建
 
 

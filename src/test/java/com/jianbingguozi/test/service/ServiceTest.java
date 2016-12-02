@@ -46,4 +46,12 @@ public class ServiceTest {
 
         System.out.println(user);
     }
+
+    @Test
+    public void userServiceInsertTran(){
+        User user = new User();
+        user.setName("蟑螂");
+        user.setAge(1);
+        userService.registUserTran(user);
+    }
 }
